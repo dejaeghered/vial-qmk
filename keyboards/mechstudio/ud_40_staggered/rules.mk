@@ -8,5 +8,11 @@ CONSOLE_ENABLE = no         # Console for debug
 COMMAND_ENABLE = no         # Commands for debug and configuration
 NKRO_ENABLE = no            # Enable N-Key Rollover
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
-RGBLIGHT_ENABLE = no       # Enable keyboard RGB underglow
+#RGBLIGHT_ENABLE = yes       # Enable keyboard RGB underglow
+RGB_MATRIX_ENABLE = yes		# RGB Matrix
 AUDIO_ENABLE = no           # Audio output
+RGB_MATRIX_DRIVER = ws2812
+
+# Disable unsupported hardware
+AUDIO_SUPPORTED = no
+BACKLIGHT_SUPPORTED = no
